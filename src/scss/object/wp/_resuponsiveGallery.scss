@@ -1,0 +1,26 @@
+@use "../../foundation"as f;
+
+.is-style-resuponsiveGallery{
+    justify-content: space-between;
+
+    @include f.mq-up(tab) {
+        //margin-top: 240px;
+    }
+
+    @include f.mq-up(pc) {
+        //margin-top: 60px;
+    }
+}
+
+.wp-block-gallery.has-nested-images.is-style-resuponsiveGallery figure.wp-block-image:not(#individual-image) {
+    @include f.mq-down(tab) {
+        flex-grow: 0;
+        width: 48.7%;
+        margin-right: 0;
+    }
+    
+    @include f.mq-down(sp) {
+        width: 100%;
+    }
+}
+

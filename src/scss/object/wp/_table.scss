@@ -1,0 +1,21 @@
+@use "../../foundation"as f;
+
+.wp-block-table.is-style-46table {
+    table {
+        width: 100%;
+        border-collapse: collapse;
+
+        tr td {
+            padding: 30px;
+            border: 1px solid f.$color--gray;
+        }
+
+        tr td:nth-child(1) {
+            width: 40%;
+
+            @include f.mq-up(tab) {
+                width: 30%;
+            }
+        }
+    }
+}

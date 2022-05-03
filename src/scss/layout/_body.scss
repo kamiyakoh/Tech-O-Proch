@@ -1,0 +1,7 @@
+@use "../foundation"as f;
+
+body {
+    &.fix {
+        position: fixed;
+    }
+}

@@ -1,0 +1,9 @@
+@use "../foundation"as f;
+
+.l-footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}

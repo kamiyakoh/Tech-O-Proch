@@ -1,0 +1,77 @@
+@use "../../foundation"as f;
+
+.wp-pagenavi {
+    /*display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 60px 0 30px;
+
+    @include f.mq-up(tab) {
+        justify-content: center;
+        padding: 105px 0px 30px;
+    }
+
+    @include f.mq-up(pc) {
+        padding: 150px 0px 65px;
+    }
+
+    &__none {
+        padding-bottom: 90px;
+
+        @include f.mq-up(tab) {
+            padding-bottom: 1035px;
+        }
+    
+        @include f.mq-up(pc) {
+            padding-bottom: 215px;
+        }
+    }
+
+    .page, .current{
+        line-height: 3.2rem;
+        width: 35px;
+        height: 35px;
+        border: 1px solid f.$color--gray;
+    }
+    
+    .current {
+        color: f.$color--white;
+        background-color: f.$bgcolor--lightBrown;
+    }
+    
+    .page, .pages , .current {
+        display: none;
+    
+        @include f.mq-up(tab) {
+            display: inline;
+            margin-left: 15px;
+        }
+    }
+    
+    .previouspostslink, .nextpostslink {
+        font-size: 2.5rem;
+    
+        @include f.mq-up(tab) {
+            margin-left: 17px;
+        }
+    }
+    
+    .previouspostslink::after {
+        content: " 前へ";
+        font-size: 1.6rem;
+    
+        @include f.mq-up(tab) {
+            display: none;
+        }
+    }
+    
+    .nextpostslink::before {
+        content: "次へ ";
+        font-size: 1.6rem;
+    
+        @include f.mq-up(tab) {
+            display: none;
+        }
+    }*/
+}

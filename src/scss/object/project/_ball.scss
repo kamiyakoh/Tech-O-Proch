@@ -1,0 +1,9 @@
+@use "../../foundation"as *;
+
+.p-ball {
+    &--header {
+        text-shadow: initial;
+        font-size: $rem-2;
+        margin: 0 .25rem;
+    }
+}

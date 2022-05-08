@@ -1,5 +1,5 @@
 @use "mixin"as m;
-@use "variables"as v;
+@use "variables"as *;
 
 html {
     font-size: 62.5%;
@@ -11,8 +11,13 @@ body {
     width: 100%;
 
     background-color: white;
-    font-size: 1.6rem;
-    font-family: 'M+ M Type-1 (basic latin) Regular', 'M+ Type-1 (general-j) Regular';
+    font-size: $rem-2;
+    font-family: "Helvetica Neue",
+                Arial,
+                "Hiragino Kaku Gothic ProN",
+                "Hiragino Sans",
+                Meiryo,
+                sans-serif;
     color: gray;
     line-height: 1.5;
     overflow-x: hidden;
@@ -43,17 +48,17 @@ figure {
 }
 
 h2 {
-    font-size: 3.6rem;
+    font-size: $rem-4;
 }
 
 h3 {
-    font-size: 2.8rem;
+    font-size: $rem-3;
 }
 
 h4,
 h5,
 h6 {
-    font-size: 2rem;
+    font-size: $rem-3h;
 }
 
 ul,

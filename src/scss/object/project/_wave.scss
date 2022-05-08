@@ -1,0 +1,51 @@
+@use "../../foundation/"as *;
+
+@keyframes wave {
+    100% {
+        transform: translate3d(0, -10px, 0);
+    }
+}
+
+.p-wave {
+    display: block;
+
+    span {
+        display: inline-block;
+    }
+
+    &.is-wave span {
+        animation: wave .2s alternate 0s 2;
+
+        &:nth-child(2) {
+            animation-delay: .1s;
+        }
+
+        &:nth-child(3) {
+            animation-delay: .2s;
+        }
+
+        &:nth-child(4) {
+            animation-delay: .3s;
+        }
+
+        &:nth-child(6) {
+            animation-delay: .5s;
+        }
+
+        &:nth-child(7) {
+            animation-delay: .6s;
+        }
+
+        &:nth-child(8) {
+            animation-delay: .7s;
+        }
+
+        &:nth-child(9) {
+            animation-delay: .8s;
+        }
+
+        &:nth-child(10) {
+            animation-delay: .9s;
+        }
+    }
+}

@@ -17,6 +17,8 @@ $bgrgba--board: rgba(255, 255, 255, 0.8);*/
 
 // gradation-color
 
+$gracolor--yellow-A: #ffffea;
+$gracolor--yellow-C: #770;
 /*$gracolor--beige-A: #F2EDE9;
 $gracolor--beige-B: #DED8D3;
 $gracolor--cream-A: #F2EDE9;
@@ -24,14 +26,24 @@ $gracolor--cream-B: #DED8D3;
 $grargba--shadow-A: rgba(0, 0, 0, 0.6);
 $grargba--shadow-B: rgba(0, 0, 0, 0.39);*/
 
-// font-family
+// rem
 
-/*$font--roboto: 'Roboto',
-sans-serif;
-$font--Mplus-Bold: 'M+ M Type-1 (basic latin) Bold',
-'M+ Type-1 (general-j) Bold';
-$font--Mplus: 'M+ M Type-1 (basic latin) Regular',
-'M+ Type-1 (general-j) Regular';*/
+$rem-h: .4rem;
+$rem-1: .8rem;
+$rem-2: 1.6rem;
+$rem-3: 2.4rem;
+$rem-3h: 2.8rem;
+$rem-4: 3.2rem;
+$rem-5: 4rem;
+
+// px
+
+$px-h: 4px;
+$px-1: 8px;
+$px-2: 16px;
+$px-3: 24px;
+$px-4: 32px;
+$px-5: 40px;
 
 // transition-time
 

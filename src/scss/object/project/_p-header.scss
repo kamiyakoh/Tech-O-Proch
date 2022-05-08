@@ -1,0 +1,9 @@
+@use "../../foundation"as *;
+
+.p-header {
+    &__ttl {
+        text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px -1px 0 #FFF, 0px 1px 0 #FFF, 0-1px 0 #FFF, -1px 0 0 #FFF, 1px 0 0 #FFF;
+        line-height: 2.7;
+        margin-left: $px-3;
+    }
+}

@@ -4,4 +4,21 @@
     &--white {
         background-color: white;
     }
+
+    &--lightskyblue {
+        background-color: lightskyblue;
+    }
+
+    &__gra {
+        &--sky {
+            background: linear-gradient(aquamarine, lightskyblue);
+        }
+    }
+
+    &__ball {
+        &--yellow {
+            background: radial-gradient(circle at 30% 30%, $gracolor--yellow-A, yellow, $gracolor--yellow-C);
+            border-radius: 50%;
+        }
+    }
 }

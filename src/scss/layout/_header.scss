@@ -5,12 +5,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: relative;
 
     @include f.mq-up(pc) {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        height: 100%;
+        height: 64px;
     }
 }

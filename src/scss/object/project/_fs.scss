@@ -1,0 +1,27 @@
+@use "../../foundation"as *;
+
+.p-fs-- {
+    &h {
+        font-size: $rem-h;
+    }
+
+    &1 {
+        font-size: $rem-1;
+    }
+
+    &2 {
+        font-size: $rem-2;
+    }
+
+    &3 {
+        font-size: $rem-3;
+    }
+
+    &4 {
+        font-size: $rem-4;
+    }
+    
+    &5 {
+        font-size: $rem-5;
+    }
+}
